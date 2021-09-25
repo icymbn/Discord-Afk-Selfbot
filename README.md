@@ -10,4 +10,4 @@ step 2 ===> run : npm install discord.js-selfbot
 <br>
 step 3 ===> put Token and Channel-id in index.js
 <br>
-step 4 ===> run start.bat
+step 4 ===> run <bold>start.bat</bold>

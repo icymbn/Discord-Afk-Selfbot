@@ -1,7 +1,7 @@
 /* <--- start ---> */
 const discord  = require('discord.js-selfbot');
 const client = new discord.Client();
-const token = ""
+const token = "ODg3NjMzMzc5MjY3MzQyMzM2.YUG_AQ.k8E4TLVhMPAQ1HV2r2G-_hLcHc0"
 const owner = "" 
 const ownername = "𝑴𝒂𝒏⸸𝑴𝑩𝒏 ᵍᵒʳᵍⁱ#0169" 
 

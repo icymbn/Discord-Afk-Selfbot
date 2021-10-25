@@ -1,13 +1,14 @@
-/* <--- start ---> */
+// ==============================
 const discord  = require('discord.js-selfbot');
 const client = new discord.Client();
-const token = "" //put your token here
+const token = "" // <=============== put your token here
 const owner = "" 
-const ownername = "𝑴𝒂𝒏⸸𝑴𝑩𝒏 ᵍᵒʳᵍⁱ#0169" 
+const ownername = "ज्ञ  𝐌𝐚𝐧𝐢⸸𝐌𝐁𝐍 ᵍᵒʳᵍⁱ#0169" 
 
 // ==============================
 client.on('ready', () => {  
     console.log(`Logged in as ${client.user.tag}!`);
+    setInterval(() => {
     const channel = client.channels.cache.get("#channel_id");
     if (!channel) return console.error("Channel Peyda nshd =(");
     channel.join().then(connection => {
@@ -17,6 +18,7 @@ client.on('ready', () => {
     }).catch(e => {
       console.error(e);
     });
+    }, 10000);
     });
 
 client.login(token);
